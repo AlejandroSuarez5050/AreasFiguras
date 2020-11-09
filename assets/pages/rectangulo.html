@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Area Rectangulo</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/estilos.css" type="text/css">
+</head>
+<body>
+<div class="container-fluid justify-content-center align-items-center pl-3 pr-3 row w-100">
+    <div class="col-md-12 row justify-content-between text-center p-5">
+        <h1>Area del Rectangulo</h1>
+        <p>El área de un rectangulo es base*altura.</p>
+    </div>
+    <div class="col-md-12 row justify-content-center text-center">
+        <div class="col-md-3">
+            <img src="../images/rectangulo.png" alt="" class="w-50">
+            <form>
+                <div class="mb-3 justify-content-center text-center pt-5">
+                    <label for="base" class="form-label w-25">Base</label>
+                    <input type="number" class="form-control" id="base" placeholder="Ingrese la Base">
+                </div>
+                <div class="mb-3 justify-content-center text-center pt-2">
+                    <label for="altura" class="form-label w-25">Altura</label>
+                    <input type="number" class="form-control" id="altura" placeholder="Ingrese la Altura">
+                </div>
+                <button type="submit" id="area" class="btn btn-primary" onclick="rectangulo()">Obtener el Area</button>
+            </form>
+        </div>
+    </div>
+    <div class="col-md-6 row justify-content-center text-center p-5">
+        <a class="btn btn-primary w-25" href="../../index.html" role="button">Regresar al Inicio</a>
+    </div>
+</div>
+<div class="container-fluid" id="footer">
+    <div class="row justify-content-md-center py-md-1">
+        <div class="contenidoF2 col text-center font-weight-light">
+            <h6>Pagina Desarrollada por Alejandro Suarez Hernandez</h6>
+            <h6>Todos los derechos reservados ©Alejandro Suarez 2020</h6>
+        </div>
+    </div>
+</div>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery-3.5.1.slim.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/operations.js"></script>
+</body>
+</html>
